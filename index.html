@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<header class="p-3 px-3 bg">
+<header class="p-3 px-3 bg headd">
 
      <div class="row  text-info">
         <div class="col-9 col-md-6 p-3">
@@ -21,28 +21,34 @@
          <div class="col-3 col-md-6">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler btn-outline-light navtoggle" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler btn-link navtoggle" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>      
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                   <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <button class="btn btn-outline-light navbar-btn btnbg" >Home<span class="sr-only">(current)</span></button>
+                      <a href="#home">
+                      <button class="btn btn-link navbar-btn btnbg" >Home<span class="sr-only">(current)</span></button></a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-outline-light navbar-btn btnbg" >About</button>
+                      <a href="#about">
+                      <button class="btn btn-link navbar-btn btnbg" >About</button></a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-outline-light navbar-btn btnbg" >Education</button>
+                      <a href="#edn">
+                      <button class="btn btn-link navbar-btn btnbg" >Education</button></a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-outline-light navbar-btn btnbg" >Work</button>
+                      <a href="#work">
+                      <button class="btn btn-link navbar-btn btnbg" >Work</button></a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-outline-light navbar-btn btnbg" >Contact</button>
+                      <a href="#contact">
+                      <button class="btn btn-link navbar-btn btnbg" >Contact</button></a>
                     </li>
                     <li>
-                    <button class="btn btn-outline-light navbar-btn resumebtn" >Resume</button>
+                    <a href="files/Resume_TheresMaryJose.pdf">
+                    <button class="btn btn-link navbar-btn resumebtn" >Resume</button></a>
                   </li>
                   </ul>
                 </div>
@@ -68,27 +74,27 @@
 </div>
 
 
-<section class="p-5  text-white">
+<section class=" text-white padding" id="home">
   <div class="container">
     <div class="row pl-5">
       <div class="col- hello pl-4 pt-4">
-        <h1 style="color:rgb(204, 209, 209); font-size: 3vw;">Hello! I'm</h1>
-        <h1 style="font-size: 4.5vw;">Theres Mary Jose.</h1>
+        <h1 class="hello">Hello! I'm</h1>
+        <h1 class="name">Theres Mary Jose.</h1>
         <a href="mailto:theresmary98@gmail.com">
-        <button class="btn btn-outline-light resumebtn">Get In Touch</button></a>
+        <button class="btn btn-link resumebtn">Get In Touch</button></a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="p-5 text-white">
+<section class=" text-white padding" id="about">
   <div class="container">
-    <div class="row px-4">
-      <div class="col-lg-6 pt-2">
+    <div class="row pl-5" >
+      <div class="col-lg-5 pt-2">
         <img src="images/pic.jpg" class="img-fluid rounded img mx-auto d-block" alt="Theres">
       </div>
 
-      <div class="col-lg-6 p-4">
+      <div class="col-lg-7 p-4">
         <h4><strong>About Me</strong></h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           <br><br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -97,7 +103,7 @@
   </div>
 </section>
 
-<section class="p-5  text-white">
+<section class="p-5  text-white" id="edn">
   <div class="container">
     <div class="row px-4">
       <div class="col-md-6 p-4">
@@ -109,12 +115,12 @@
   </div>
 </section>
 
-<section class="p-5  text-white">
+<section class="p-5  text-white" id="work">
   <div class="container text-center">
     <h4><strong>What I've Built</strong></h4>
     <div class="row p-4">
       <div class="col-md-6 col-lg-4 p-3">
-        <div class="card" style="height:25em;">
+        <div class="card">
           <div class="card-body">
             <i class="fas fa-folder-open icon left h3"></i>
             <a href="https://github.com/TheresMary">
@@ -126,7 +132,7 @@
       </div>
 
       <div class="col-md-6 col-lg-4 p-3">
-        <div class="card" style="height:25em;">
+        <div class="card">
           <div class="card-body">
             <i class="fas fa-folder-open icon left h3"></i>
             <a href="https://github.com/TheresMary">
@@ -138,7 +144,7 @@
       </div>
 
       <div class="col-md-6 col-lg-4 p-3">
-        <div class="card" style="height:25em;">
+        <div class="card">
           <div class="card-body">
             <i class="fas fa-folder-open icon left h3"></i>
             <a href="https://github.com/TheresMary">
@@ -152,7 +158,7 @@
   </div>
 </section>
 
-<section class="p-5  text-white">
+<section class="p-5  text-white" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-12 p-4  text-center">
@@ -160,7 +166,7 @@
           <h1><strong>Get In Touch!</strong></h1>
           <h5>Feel free to shoot me an email!</h5>
           <br><a href="mailto:theresmary98@gmail.com">
-          <button class="btn btn-outline-light resumebtn">Say Hello</button></a>
+          <button class="btn btn-link resumebtn">Say Hello</button></a>
   
         </div>
       </div>
@@ -171,8 +177,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
+        <a href="#home">
+        <img src="/Personal website/images/jet-icon.png" width="20" height="20" ></a>
+        <br><br>
         <a class="mailhovr" href="https://github.com/TheresMary/Personal-Portfolio">
-        <p>Built by Theres Mary Jose</p></a>
+        <p><i class="fas fa-copyright copyright-size"></i>  Theres Mary Jose</p></a>
       </div>
     </div>
   </div>

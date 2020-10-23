@@ -79,6 +79,9 @@ section{
 .giticon{
     color:#a8b2d1;
 }
+.giticon:hover{
+    color:#0CF7EB;
+}
 .rightsideelmt{
 
     width: 1.5px; background-color:#a8b2d1; z-index: 10; position: fixed; right: 40px; top: 31rem; height: 115px;
@@ -104,4 +107,28 @@ section{
 .mailhovr:hover {
     color:#0CF7EB;
     text-decoration: none;
-  }
+}
+.github{
+    z-index: 10; 
+    position: fixed; 
+    top: 18.5rem; 
+    left: 34px;
+}
+.linkedin{
+    z-index: 10; 
+    position: fixed; 
+    top: 21.5rem; 
+    left: 34px;
+}
+.insta{
+    z-index: 10; 
+    position: fixed; 
+    top: 24.5rem; 
+    left: 34px;
+}
+.pinterest{
+    z-index: 10; 
+    position: fixed; 
+    top: 27.5rem; 
+    left: 34px;
+}

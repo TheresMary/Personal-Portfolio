@@ -67,7 +67,7 @@ section{
    filter: grayscale(100%);
    filter: gray; /* IE 6-9 */
    width: 50%;
-   height: 95%;
+   height: 85%;
 
 }
 .img:hover {
@@ -80,7 +80,7 @@ section{
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-    background-color:#0b0f13;;
+    background-color:#121820;;
 }
 .left{
     text-align: left;
@@ -104,6 +104,18 @@ section{
 }
 .card{
     height:25em;
+}
+.cardhover{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+.cardhover:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+.card-footer {
+    margin-bottom: 2px;
 }
 .rightsideelmt{
 
@@ -158,4 +170,8 @@ section{
 
 .copyright-size{
     font-size:12px;
+}
+
+.whitegray{
+    color:#afe3f0;
 }

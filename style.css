@@ -175,3 +175,20 @@ section{
 .whitegray{
     color:#afe3f0;
 }
+.lightgray{
+    color:#434a5e;
+}
+.li_1 {
+    display: block;
+}
+
+.li_1:before {
+    content: "▹";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #0CF7EB;;
+
+}
